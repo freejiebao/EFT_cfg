@@ -1,7 +1,7 @@
 from CRABClient.UserUtilities import config, getUsernameFromSiteDB
 config = config()
 
-config.General.requestName = 'VBS_SSWW_BSM'
+config.General.requestName = 'VBS_SSWW_BSM_NEW'
 config.General.workArea = 'crab_projects'
 config.General.transferOutputs = True
 config.General.transferLogs = False
@@ -17,6 +17,6 @@ NJOBS = 250  # This is not a configuration parameter, but an auxiliary variable 
 config.Data.totalUnits = config.Data.unitsPerJob * NJOBS
 config.Data.outLFNDirBase = '/store/user/%s/eft2018' % (getUsernameFromSiteDB())
 config.Data.publication = True
-config.Data.outputDatasetTag = 'VBS_SSWW_BSM'
+config.Data.outputDatasetTag = 'VBS_SSWW_BSM_NEW'
 
 config.Site.storageSite = 'T2_CN_Beijing'

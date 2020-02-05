@@ -11,7 +11,7 @@ config.JobType.psetName = 'SMP-Premix-BSM_2_cfg.py'
 config.JobType.numCores = 4
 config.JobType.maxMemoryMB = 6000
 
-config.Data.inputDataset = '/Bulk/jixiao-VBS_SSWW_BSM_RAWSIMoutput-463d45b48c2a8dcb7ad3f636e9bc356e/USER'
+config.Data.inputDataset = '/Bulk/jixiao-VBS_SSWW_BSM_Premix_1-5aa1749307f00d6302ec929df355f761/USER'
 config.Data.inputDBS = 'phys03'
 config.Data.splitting = 'FileBased'
 config.Data.unitsPerJob = 1
